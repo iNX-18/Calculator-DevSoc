@@ -27,7 +27,7 @@
             <button class="button operator" onclick="display.value += '+'">+</button>
             <button class="button" onclick="display.value= eval(display.value)" style="width: 171px;">=</button>
             <button class="button" onclick="display.value = ''">C</button>
-            <button class="button" onclick="">Del</button>
+            <button class="button" onclick="display.value= display.value.slice(0,-1)">Del</button>
         </div>
     </div>
 </body>
